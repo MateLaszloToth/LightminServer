@@ -34,6 +34,10 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.postgresql:postgresql")
+// Lightmin dependencies
+	implementation("org.tuxdevelop:spring-batch-lightmin-bom:2.1.0")
+	implementation("org.tuxdevelop:spring-batch-lightmin-server-standalone:2.1.0")
+	implementation("org.tuxdevelop:spring-batch-lightmin-client-classic:2.1.0")
 
 //	implementation("org.springframework.boot:spring-boot-starter")
 //	implementation("org.springframework.boot:spring-boot-starter-mustache")
