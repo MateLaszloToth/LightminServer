@@ -8,6 +8,6 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class BatchProcessingApplication
 
-    fun main(args: Array<String>) {
-        runApplication<BatchProcessingApplication>(*args)
-    }
+//    fun main(args: Array<String>) {
+//        runApplication<BatchProcessingApplication>(*args)
+//    }
