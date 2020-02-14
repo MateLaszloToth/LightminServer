@@ -12,9 +12,11 @@ import org.tuxdevelop.spring.batch.lightmin.server.annotation.EnableLightminServ
 class LightminServer
 
 fun main(args: Array<String>) {
-    SpringApplicationBuilder()
-            .sources(LightminServer::class.java)
-            .profiles("server")
-            .run(*args)
-    //runApplication<LightminServer>(*args)
+
+    runApplication<LightminServer>(*args)
+
+//    SpringApplicationBuilder()
+//            .sources(LightminServer::class.java)
+//            .profiles("server")
+//            .run(*args)
 }
